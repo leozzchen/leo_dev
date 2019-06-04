@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessTypes>
+	<ProcessType id="0" name="All" desc="All"/>
+	<ProcessType id="1" name="IBL-DC -CHK" desc="Import DC Bill Document Checking"/>
+	<ProcessType id="2" name="EBL-DC -CHK" desc="Export DC Bill Document Checking"/>
+	<ProcessType id="3" name="IBL-DC -CHK3" desc="Import DC Bill Document Checking3"/>
+	<ProcessType id="4" name="EBL-DC -CHK4" desc="Export DC Bill Document Checking4"/>
+</ProcessTypes>

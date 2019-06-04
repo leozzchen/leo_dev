@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<TranChannel regtion="HK" targetPath="E:/DEV_TESTING/folder1" enable="true">
+		<CountryEntities>
+			<CountryEntity filePrefix="HKAABB" countryCode="HK" entityName="HBAP" processTypeIDs="1" />
+		</CountryEntities>
+		<Countries>
+			<Country filePrefix="HK" countryCode="HK" processTypeIDs="0" />
+			<Country filePrefix="CN" countryCode="CN" processTypeIDs="0" />
+		</Countries>
+	</TranChannel>
+	<TranChannel regtion="UK" targetPath="E:/DEV_TESTING/folder2" enable="true">
+		<CountryEntities>
+			<CountryEntity filePrefix="EGCCDD" countryCode="EG" entityName="HBEG" processTypeIDs="0" />
+			<CountryEntity filePrefix="CNAABB" countryCode="CN" entityName="HACN" processTypeIDs="0" />
+		</CountryEntities>
+		<Countries>
+			<Country filePrefix="EG" countryCode="EG" processTypeIDs="0" />
+		</Countries>
+	</TranChannel>
+	<TranChannel regtion="IN" targetPath="E:/DEV_TESTING/folder3" enable="true">
+		<CountryEntities>
+			<CountryEntity filePrefix="INEEFF" countryCode="IN" entityName="HBAP" processTypeIDs="0" />
+		</CountryEntities>
+		<Countries>
+			<Country filePrefix="IN" countryCode="IN" processTypeIDs="0" />
+		</Countries>
+	</TranChannel>
+</Config>
